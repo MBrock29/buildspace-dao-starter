@@ -10,7 +10,7 @@ const editionDrop = sdk.getEditionDrop(
     await editionDrop.createBatch([
       {
         name: "Leaf Village Headband",
-        description: "This NFT will give you access to NarutoDAO!",
+        description: "This NFT will give you access to MikesDAO!",
         image: readFileSync("scripts/assets/MikesDAO.JPG"),
       },
     ]);
